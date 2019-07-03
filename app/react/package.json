@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "DEV_BUILD=1 nodemon --watch ./src --exec 'npm run prepublish'",
-    "prepublish": "node ../../scripts/prepublish.js"
+    "prepublish": "npm run snyk-protect; node ../../scripts/prepublish.js",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "@storybook/addon-actions": "^3.0.0-alpha.0",
@@ -62,7 +63,8 @@
     "uuid": "^3.0.1",
     "webpack": "^2.4.1",
     "webpack-dev-middleware": "^1.10.1",
-    "webpack-hot-middleware": "^2.18.0"
+    "webpack-hot-middleware": "^2.18.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -74,5 +76,6 @@
   "peerDependencies": {
     "react": "*",
     "react-dom": "*"
-  }
+  },
+  "snyk": true
 }
