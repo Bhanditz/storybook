@@ -8,9 +8,10 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepublish": "node ../../scripts/prepublish.js",
+    "prepublish": "npm run snyk-protect; node ../../scripts/prepublish.js",
     "storybook": "start-storybook -p 9010",
-    "publish-storybook": "bash ./.scripts/publish_storybook.sh"
+    "publish-storybook": "bash ./.scripts/publish_storybook.sh",
+    "snyk-protect": "snyk protect"
   },
   "peerDependencies": {
     "react": "*",
@@ -34,7 +35,9 @@
     "react-komposer": "^2.0.0",
     "react-modal": "^1.7.6",
     "react-split-pane": "^0.1.63",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "snyk": "^1.189.0"
   },
-  "main": "dist/index.js"
+  "main": "dist/index.js",
+  "snyk": true
 }
