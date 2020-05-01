@@ -9,6 +9,12 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "jscodeshift": "^0.3.30"
-  }
+    "jscodeshift": "^0.3.30",
+    "snyk": "^1.316.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
