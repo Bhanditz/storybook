@@ -34,11 +34,11 @@
     "react-native": "^0.43.3"
   },
   "dependencies": {
-    "@storybook/addon-actions": "^3.0.0-alpha.0",
+    "@storybook/addon-actions": "^4.0.0",
     "@storybook/addon-links": "^3.0.0-alpha.0",
     "@storybook/addons": "^3.0.0-alpha.0",
     "@storybook/channel-websocket": "^3.0.0-alpha.0",
-    "@storybook/ui": "^3.0.0-alpha.0",
+    "@storybook/ui": "^4.0.0",
     "autoprefixer": "^7.0.1",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
@@ -57,7 +57,7 @@
     "babel-runtime": "^6.23.0",
     "case-sensitive-paths-webpack-plugin": "^2.0.0",
     "commander": "^2.9.0",
-    "css-loader": "^0.28.0",
+    "css-loader": "^2.0.0",
     "events": "^1.1.1",
     "express": "^4.15.2",
     "file-loader": "^0.11.1",
@@ -69,7 +69,7 @@
     "url-loader": "^0.5.8",
     "util-deprecate": "^1.0.2",
     "uuid": "^3.0.1",
-    "webpack": "^2.4.1",
+    "webpack": "^5.0.0",
     "webpack-dev-middleware": "^1.10.1",
     "webpack-hot-middleware": "^2.18.0"
   }
