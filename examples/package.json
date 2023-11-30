@@ -10,6 +10,6 @@
   "dependencies": {
     "child-process-promise": "^2.2.1",
     "getstorybook": "^1.7.0",
-    "rimraf": "^2.6.1"
+    "rimraf": "^4.0.0"
   }
 }
