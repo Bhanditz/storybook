@@ -23,7 +23,7 @@
     "@storybook/addon-links": "^3.0.0-alpha.0",
     "@storybook/addons": "^3.0.0-alpha.0",
     "@storybook/channel-postmessage": "^3.0.0-alpha.0",
-    "@storybook/ui": "^3.0.0-alpha.0",
+    "@storybook/ui": "^6.5.0",
     "airbnb-js-shims": "^1.1.1",
     "autoprefixer": "^7.0.1",
     "babel-core": "^6.24.1",
